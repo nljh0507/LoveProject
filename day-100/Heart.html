@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+    <body>
+        <div class="back">
+            <strong>
+                <div style = "text-align:  center;vertical-align: middle;">
+                    <h3 style="color:#2e5aac;text-align: left;font-size: 6em; display: inline-block;">
+                        경&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </h3>
+                    <h3 style="color:#31aa50;text-align: center;font-size: 4em; display: inline-block;">
+                    정희&nbsp;
+                    </h3>
+                    <h3 style="color:#cfc170;text-align: center;font-size: 4em; display: inline-block;">
+                    지원&nbsp;
+                    </h3>
+                    <h3 style="color:#833b65;text-align: center;font-size: 4em; display: inline-block;">
+                    100일!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </h3>
+                    <h3 style="color:#2e5aac;text-align: right;font-size: 6em; display: inline-block;">
+                        축
+                    </h3>
+                </div>
+            </strong>
+            <div style = "text-align:  center;vertical-align: middle;">
+            </br></br></br></br></br></br></br></br>
+                <h3 style="text-align: left;font-size: 1.5em; display: inline-block;">
+                    세상에는&nbsp;
+                </h3>
+                <h3 style = "color:#e74747;font-size: 1.5em; display: inline-block">
+                    초코우유
+                </h3>
+                <h3 style = "font-size:1.5em;display:inline-block;">
+                    도&nbsp;있고,
+                </h3>
+            </br>
+                <h3 style="color:#ff0808;font-size: 1.5em;display: inline-block;">
+                    딸기우유
+                    <h3 style="font-size: 1.5em;display: inline-block;">
+                    도 있고,
+                    </h3>
+                </h3>
+            </br>
+                <h3 style="color:#f3ff4d;font-size: 1.5em; display: inline-block;">
+                    바나나우유
+                </h3>
+                <h3 style="font-size: 1.5em;display: inline-block;">
+                    도 있는데,
+                </h3>
+            </br>
+                <h3 style="font-size: 1.5em; display: inline-block;">
+                    내가 너에게 주고싶은 우유는
+                </h3>
+                <h3 style="color:#ff298d;font-size: 1.5em; display: inline-block;">
+                    알럽우유♡
+                </h3>
+            </div>
+        </div>
+        <div class="heart">
+        </div>
+
+    </body>
+    <style>
+        
+.back {
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    animation-name: backdiv;
+    animation-duration: 1s; 
+    animation-iteration-count: infinite;
+  }
+
+  .heart {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: pink;
+    height: 50px;
+    width: 50px;
+    transform: rotate(-45deg);
+    animation-name: beat;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+  .heart:after {
+    background-color: pink;
+    content: "";
+    border-radius: 50%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0px;
+    left: 25px;
+  }
+  .heart:before {
+    background-color: pink;
+    content: "";
+    border-radius: 50%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: -25px;
+    left: 0px;
+  }
+
+  @keyframes backdiv {
+    50% {
+      background: #ffe6f2;
+    }
+  }
+
+  @keyframes beat {
+    0% {
+      transform: scale(1) rotate(-45deg);
+    }
+    50% {
+      transform: scale(0.6) rotate(-45deg);
+    }
+  }
+    </style>
+</html>
